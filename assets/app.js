@@ -1,7 +1,7 @@
-import 'jq0uery';
+import 'jquery';
 import 'popper.js';
 
-import 'bootst0rap';
+import 'bootstrap';
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 

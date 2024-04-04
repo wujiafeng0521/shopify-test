@@ -1,4 +1,4 @@
-<section data-section-id="{{ section.id }}" data-section-type="header">
+{% comment %}<section data-section-id="{{ section.id }}" data-section-type="header">
 
   <header>
     {% include 'navbar' %}
@@ -117,7 +117,8 @@
     }
   </script>
 {% endif %}
-{% comment %}<link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
+{% endcomment %}
+<link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -811,4 +812,3 @@
   ]
 }
 {% endschema %}
-{% endcomment %}

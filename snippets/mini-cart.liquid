@@ -1,6 +1,6 @@
 <!-- This file has been calledl in navbar.liquid -->
 <ul class="list-unstyled">
-  {% comment %}<template v-if="cart">
+  <template v-if="cart">
       <li class="media" v-for="(item, index) in cart.items">
           <template v-if="item.image">
               <a :href="item.url">
@@ -47,7 +47,7 @@
           </div>
       </li>
 
-  </template>{% endcomment %}
+  </template>
  
     <li class="media my-4">
         <div class="d-flex justify-content-between">

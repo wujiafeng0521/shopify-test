@@ -39,19 +39,15 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Cart
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <li class="media my-4">
-                          <div class="d-flex justify-content-between">
-                          <a href="/cart" class="btn btn-primary mr-3">Cart</a>
-                          <a href="/checkout" class="btn btn-success">Checkout</a>
-                          </div>
-                        </li>
-                    {% comment %}<li><a class="dropdown-item" href="#">checkout</a></li>
-                    <li><a class="dropdown-item" href="#">check</a></li>
+                <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="#">checkout</a></li>
+                  <li><a class="dropdown-item" href="#">check</a></li>
+                </ul>
+               {% comment %}<div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <div class="dropdown-item-text">
                         {% include 'mini-cart' %}
-                    </div>{% endcomment %}
-                </div>
+                    </div>
+                </div>{% endcomment %}
               </li>
             </ul>
       </div>
